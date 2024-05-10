@@ -1,0 +1,3 @@
+[submodule "ms-pagamentos-alura"]
+	path = ms-pagamentos-alura
+	url = https://github.com/davipedro/ms-pagamentos-alura.git

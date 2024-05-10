@@ -47,7 +47,7 @@ public class PedidoService {
         pedido.getItens().forEach(item -> item.setPedido(pedido));
         Pedido salvo = repository.save(pedido);
 
-        return modelMapper.map(pedido, PedidoDto.class);
+        return modelMapper.map(salvo, PedidoDto.class);
     }
 
     public PedidoDto atualizaStatus(Long id, StatusDto dto) {
